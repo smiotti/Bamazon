@@ -24,11 +24,11 @@ Start the application with the command "node bamazonCustomer.js".  Bamazon will 
    [Example: node bamazonCustomer.js](Screen_caps/BamazonStart.GIF)
 
 
-Use the arrow key to select the product you wish to purchase, and click the Enter key.
+Use the arrow key to select the product you wish to purchase and click the Enter key.
    
    [Example: Product Selection](Screen_caps/ProductSelect.GIF)
 
- Next enter the number of units you would like to purchase and hit click the Enter key.  The app will process your order if there is enough product iventory, and provide you with a Total Cost for the order, as well as update the remaining inventory.
+ Next enter the number of units you would like to purchase and hit click the Enter key.  The app will process your order if there is enough product inventory, and provide you with a total order cost, as well as update the remaining inventory.
    
    [Example: Order Process with availalbe inventory](Screen_caps/ProductOrder.GIF)
 
