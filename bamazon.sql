@@ -14,46 +14,47 @@ CREATE TABLE products(
   department_name VARCHAR(50) NOT NULL,
   price DECIMAL(6, 2) default 0,
   stock_quantity INT default 0,
+  product_sales decimal(10,2) NOT NULL,
   PRIMARY KEY (item_id)
 );
 
 
 -- Creates demo product data
-INSERT INTO products (product_name, department_name, price, stock_quantity )
-VALUES ("Water Bottle", "Sports", 8.50, 2);
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Water Bottle", "Sports", 8.50, 2, 0.00);
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("4K TV", "Electronics", 1499.99, 12);
-
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Camera", "Electronics", 799.99, 7);
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("4K TV", "Electronics", 1499.99, 12, 0.00);
 
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Grill", "Lawn & Garden", 79.00, 5);
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Camera", "Electronics", 799.99, 7, 0.00);
 
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Watch", "Jewelry", 215.50, 25);
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Grill", "Lawn & Garden", 79.00, 5, 0.00);
 
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Tire", "Auto", 82.00, 12);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Baseball Glove", "Sports", 75.00, 10);
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Watch", "Jewelry", 215.50, 25, 0.00);
 
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Football", "Sport", 25.00, 32);
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Tire", "Auto", 82.00, 12, 0.00);
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Vaccuum", "Appliance", 189.00, 25);
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Baseball Glove", "Sports", 75.00, 10, 0.00);
 
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Drone", "Electronics", 349.00, 50);
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Football", "Sport", 25.00, 32, 0.00);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Vaccuum", "Appliance", 189.00, 25, 0.00);
+
+
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES ("Drone", "Electronics", 349.00, 50, 0.00);
 
 
 -- SELECT * FROM products;

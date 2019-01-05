@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Assignment #12 - Bamazon: Node and MySQL",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smiotti/Bamazon.git"
+  },
+  "author": "Steve Miotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smiotti/Bamazon/issues"
+  },
+  "homepage": "https://github.com/smiotti/Bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^6.2.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {}
+}

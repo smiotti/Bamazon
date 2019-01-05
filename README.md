@@ -1,17 +1,36 @@
 # Bamazon
-Assignment #12 - Bamazon: Node and MySQL
+### Assignment #12 - Bamazon 
+
+
+
+"Bamazon" is a very poor man's Amazon storefront using Node.js & MySQL.  The node app will display a list of available products and take customer orders from the command line.  Once the customer selects a product and quantity, the app will display total cost for the product(s) being ordered and then update the inventory. Product inventory is being stored in a MySQL database called `bamazon`.
+
+Inside of the bamazon database there is a table called `products`, containing the following field definition...
+
+     item_id INT NOT NULL AUTO_INCREMENT,
+     product_name VARCHAR(50) NOT NULL,
+     department_name VARCHAR(50) NOT NULL,
+     price DECIMAL(6, 2) default 0,
+     stock_quantity INT default 0,
+     product_sales decimal(10,2) NOT NULL,
+     PRIMARY KEY (item_id)
+
+
+### How to use Bamazon (as a Bamazon Customer):
+To use Bamazon you will need Node installed on your computer.  Open a command line window and navigate to the root directory of the program.  
+
+Start the application with the command "node bamazonCustomer.js".  Bamazon will display the available product list and prompt user to select a product to purchase.
+
+ [Example: node bamazonCustomer.js](Screen_Caps/BamazonStart.GIF)
+
+
+Use the arrow key to select the product you wish to purchase, and click the Enter key.
+
+ [Example: Product Selection](Screen_Caps/ProductSelect.GIF)
 
 
 
 
-
-# Node.js & MySQL
-
-## Overview
-
-In this activity, you'll be creating an Amazon-like storefront with the MySQL skills you learned this unit. The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
-
-Make sure you save and require the MySQL and Inquirer npm packages in your homework files--your app will need them for data input and storage.
 
 ## Submission Guide
 
@@ -21,35 +40,9 @@ Make sure you use the normal GitHub. Because this is a CLI App, there will be no
 
 * Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers/other developers in the future what you built and why, and to show how it works. 
 
-* Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
 
-If you haven't written a markdown file yet, [click here for a rundown](https://guides.github.com/features/mastering-markdown/), or just take a look at the raw file of these instructions.
 
-### Submission on BCS
 
-* Please submit the link to the Github Repository!
-
-## Instructions
-
-### Challenge #1: Customer View (Minimum Requirement)
-
-1. Create a MySQL Database called `bamazon`.
-
-2. Then create a Table inside of that database called `products`.
-
-3. The products table should have each of the following columns:
-
-   * item_id (unique id for each product)
-
-   * product_name (Name of product)
-
-   * department_name
-
-   * price (cost to customer)
-
-   * stock_quantity (how much of the product is available in stores)
-
-4. Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
 
 5. Then create a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
 
@@ -159,16 +152,10 @@ Add a `README.md` to your repository describing the project. Here are some resou
 
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-- - -
 
-### Add To Your Portfolio
 
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
+---------------------------------------------------------------
 
-- - -
+Updated Portfolio:
+ [My Portfolio](https://smiotti.github.io/Bootstrap-Portfolio/)
 
-### One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-**Good Luck!**
