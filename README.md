@@ -37,10 +37,11 @@ Use the arrow key to select the product you wish to purchase, and click the Ente
    [Example: Order Unable to Process. Insufficient inventory](Screen_caps/OutOfStock.GIF)
 
     
+**************
 
  [Video Demo](https://drive.google.com/file/d/1DrCKbHjlnFdxv0r1dXFW1ZEm2BYWo96C/view)
 
-
+**************
 
 
 ---------------------------------------------------------------
