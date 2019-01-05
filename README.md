@@ -44,7 +44,6 @@ Use the arrow key to select the product you wish to purchase, and click the Ente
 **************
 
 
----------------------------------------------------------------
 
 Updated Portfolio:
  [My Portfolio](https://smiotti.github.io/Bootstrap-Portfolio/)
