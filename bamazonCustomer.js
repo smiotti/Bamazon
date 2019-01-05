@@ -97,8 +97,10 @@ function checkInventory(order) {
         //
         // Check if there is enough in stock and notify customer if there is insufficient inventory.
         if (order.quantity > res[0].stock_quantity) {
-            console.log(`Sorry.  There are only ${res[0].stock_quantity} in stock for ${res[0].product_name}`);
-
+            console.log(`\n********************************************************************************\n`);
+            console.log(`  Sorry, your oder cannot be completed!  There are only ${res[0].stock_quantity} ${res[0].product_name}'s in stock.\n`);
+            console.log(`  Please update order within availalbe inventory or select another product.`);
+            console.log(`\n********************************************************************************\n`);
             getInventory();
 
         // If inventory exists, update the database with the new product quantity and show the customer the total cost of their purchase.
