@@ -36,9 +36,11 @@ Use the arrow key to select the product you wish to purchase, and click the Ente
    
    [Example: Order Unable to Process. Insufficient inventory](Screen_Caps/OutOfStock.GIF)
 
-    [Example: node bamazonCustomer.js](Screen_Caps/BamazonStart.GIF)
+    
 
  [Video Demo](Screen_Caps/BamazonStart.GIF)
+
+
 
 
 ---------------------------------------------------------------
