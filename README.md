@@ -29,12 +29,10 @@ Use the arrow key to select the product you wish to purchase, and click the Ente
    [Example: Order Process with availalbe inventory](Screen_Caps/ProductOrder.GIF)
 
  If there is insufficient product inventory, customer will be notified that the order cannot be processed.  
-   [Example: Order Unable to Process. Insufficient inventory](Screen_Caps/ProductOrder.GIF)
- 
+   [Example: Order Unable to Process. Insufficient inventory](Screen_Caps/OutOfStock.GIF)
 
 
-
-
+   
 
 ## Submission Guide
 
