@@ -28,7 +28,7 @@ Use the arrow key to select the product you wish to purchase, and click the Ente
    
    [Example: Product Selection](Screen_caps/ProductSelect.GIF)
 
- Next enter the number of units you would like to purchase and hit click the Enter key.  The app will process your order if there is enough product iventory, and provide you with a Total Cost for the order.
+ Next enter the number of units you would like to purchase and hit click the Enter key.  The app will process your order if there is enough product iventory, and provide you with a Total Cost for the order, as well as update the remaining inventory.
    
    [Example: Order Process with availalbe inventory](Screen_caps/ProductOrder.GIF)
 
@@ -38,7 +38,7 @@ Use the arrow key to select the product you wish to purchase, and click the Ente
 
     
 
- [Video Demo](Screen_Caps/BamazonStart.GIF)
+ [Video Demo](https://drive.google.com/file/d/1DrCKbHjlnFdxv0r1dXFW1ZEm2BYWo96C/view)
 
 
 
