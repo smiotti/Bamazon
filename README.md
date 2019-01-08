@@ -15,6 +15,8 @@ Inside of the bamazon database there is a table called `products`, containing th
      product_sales decimal(10,2) NOT NULL,
      PRIMARY KEY (item_id)
 
+[Bamazon DB creation](Screen_caps/DBcreation.GIF)
+
 
 ### How to use Bamazon (as a Bamazon Customer):
 To use Bamazon you will need Node installed on your computer.  Open a command line window and navigate to the root directory of the program.  
